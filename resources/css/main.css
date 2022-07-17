@@ -1,0 +1,100 @@
+header{
+  top: 0;
+  left: 0;
+  right: 0;
+}
+
+header ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #323232;
+}
+
+header li {
+  float: left;
+}
+
+header li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 5px 10px;
+  text-decoration: none;
+}
+
+header li a:hover {
+  background-color: #FA900F;
+}
+
+header li a.active {
+  background-color: #FA900F;
+}
+
+
+body{
+    background-color: #171717;
+    padding-top: 10px;
+    color: white;
+}
+
+div.article {
+  display: block;
+  border: 40px solid #171717 ;
+}
+
+div.project {
+  display: block;
+  border: 40px solid #171717 ;
+}
+
+a {
+  color: #2E8CBF;
+}
+
+button{
+  border: #00000000;
+  background-color: #00000000;
+}
+
+.toc_list{
+  border: white solid 5px;
+  z-index: 100;
+  background: #171717;
+  float: right;
+  right: 20px;
+  border-radius: 10px;
+  position: fixed;
+  padding: 10px;
+}
+
+.toc_list p{
+  padding: 10px;
+}
+
+ .bottom-iframe{
+  position: -webkit-sticky;
+  position:sticky;
+  left:0;
+  bottom:0;
+  width:100%;
+  height:200px;
+  z-index:9997;
+  background:#171717;
+}
+
+.alg { display: block;
+  margin: 2px 2px 0px 2px;
+  padding: 10px 10px 10px 10px;
+  border: 1px solid white;
+}
+
+.algTab { display: block;
+margin-top: 4px;
+padding-left: 21px;
+}
+
+.algCap{
+  text-align: center;
+}
